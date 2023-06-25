@@ -1,17 +1,339 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./style.css">
-  </head>
-  <body>
-    <h1>dfgdfgdfgdfg</h1>
-    <script type="module" src="/main.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite App</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <header class="primary-header">
+    <div style="
+    width: 500px;
+    height: 500px;
+    /* flex-shrink: 0; */
+    position: absolute;
+    border-radius: 500px;
+    opacity: 0.5;
+    background: #FF5722;
+    filter: blur(250px);
+    left: -401px;
+    top: -249px;
+    z-index: -1;
+"></div>
+
+    <div class="nav-container">
+
+      <div class="logo">
+        <a href="#"><img src="./images/logo.svg" alt="Logo"></a>
+      </div>
+      <nav class="primary-navigation">
+        <ul role="list" class="nav-list">
+          <li><a class="fw-semi-bold fs-xs fc-active-nav" href="#">Home</a></li>
+          <li><a class="fw-semi-bold fs-xs fc-navbar" href="#">Discover</a></li>
+          <li><a class="fw-semi-bold fs-xs fc-navbar" href="#">Special Deals</a></li>
+          <li><a class="fw-semi-bold fs-xs fc-navbar" href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="nav-auth">
+        <button class="fw-semi-bold fs-xs fc-active-nav">Log In</button>
+        <button class="fw-semi-bold fs-xs text-white default_button">Sign Up</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="landing_container">
+      <div class="container">
+        <div class="even-columns">
+          <div class="section_third">
+            <button class="button top_button text-accent-400 fw-semi-bold fs-xs">Explore the world! <img
+                src="./images/office_bag.svg" alt=""></button>
+            <h1 class="fs-primary-heading fw-semi-bold fs-xl">Travel <span style="color: #F85E9F;">top
+                destination</span> <br /> of the world</h1>
+            <p>We always make our customer happy by providing as many choices as possible </p>
+            <div class="mid_dividion">
+              <button class="fw-semi-bold fs-xs text-white default_button">Get Started</button>
+              <button class="fw-semi-bold fs-xs watch_button ">
+                <img src="./images/play-circle.5 1.svg" alt="play icon" /> Watch Demo
+              </button>
+            </div>
+          </div>
+          <div class="section_fifth">
+            <div class="image_grid">
+              <div class="send_icon">
+                <img src="./images/send 1.svg" alt="">
+              </div>
+
+              <div class="places_icon">
+                <img src="./images/location 1.svg" alt=""> Top Places
+              </div>
+
+              <div style="
+              display: inline-flex;
+              padding: 16px;
+              align-items: center;
+              gap: 8px;
+              border-radius: 100px;
+              background: #FF5722;
+              box-shadow: 0px 19px 19px 0px rgba(0, 0, 0, 0.09), 0px 43px 26px 0px rgba(0, 0, 0, 0.05), 0px 77px 31px 0px rgba(0, 0, 0, 0.01), 0px 120px 34px 0px rgba(0, 0, 0, 0.00);
+              position: absolute;
+              bottom: 0;
+              right: 128px;
+                    ">
+                <img src="./images/add-user 1.svg" alt="">
+              </div>
+              <div class="four_img_div">
+                <div class="mid_div">
+                  <div class="sectio_one"></div>
+                  <div class="sectio_two"></div>
+                </div>
+                <div style="
+                  width: 50%;
+                  width: 272px;
+                  height: 400px;
+                  background-image: url(./images/Rectangle3.png);
+                      background-size: cover;
+                      background-position: center;
+                      background-repeat: no-repeat;
+                  border-radius: 32px;
+                  animation: drop-in 1200ms ease 500ms backwards;
+              "></div>
+              </div>
+
+              <!-- <img class="banner" src="./images/illustration-intro-1.svg" alt="" style=""> -->
+            </div>
+            <button></button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="customer_logos">
+      <div class="container">
+        <div style="position: absolute;
+        left: 38px;
+        top: 897px;">
+          <img src="./images/OBJECTS_v.svg" alt="shapes" />
+        </div>
+        <div class="logo">
+          <div>
+            <img src="./images/partner1.svg" alt="">
+          </div>
+          <div>
+            <img src="./images/partner2.svg" alt="">
+          </div>
+          <div>
+            <img src="./images/partner3.svg" alt="">
+          </div>
+          <div>
+            <img src="./images/partner4.svg" alt="">
+          </div>
+          <div>
+            <img src="./images/partner5.svg" alt="">
+          </div>
+        </div>
+        <div style="
+          z-index: -1;
+          width: 133px;
+          height: 500px;
+          flex-shrink: 0;
+          position: absolute;
+          border-radius: 500px;
+          opacity: 0.5;
+          background: #FACD49;
+          filter: blur(250px);
+          right: 0;
+          top: 786px;
+          overflow: hidden;
+      "></div>
+      </div>
+    </section>
+
+    <section class="services">
+
+      <div class="service_holder">
+        <div class="header_s">
+          <h4 class="text-accent-400 fw-semi-bold fs-md tagline_text_style"> SERVICES </h4>
+          <h2 class="fs-lg text-neutral-900 fw-semi-bold">Our top value </br>categories for you</h2>
+        </div>
+        <div class="card-container">
+          <div class="card card_one no_border">
+            <div class="contain">
+              <div class="card_logo">
+                <img src="./images/card_logo_1.svg" alt="">
+              </div>
+              <div class="card_text">
+                <h2>Best Tour Guide</h2>
+                <p>What looked like a small patch of purple grass, above five feet.</p>
+              </div>
+            </div>
+          </div>
+          <div class="card card_one borderd_card">
+            <div class="contain">
+              <div class="card_logo">
+                <img src="./images/card_logo_1.svg" alt="">
+              </div>
+              <div class="card_text">
+                <h2>Best Tour Guide</h2>
+                <p>What looked like a small patch of purple grass, above five feet.</p>
+              </div>
+            </div>
+          </div>
+          <div class="card card_one borderd_card">
+            <div class="contain">
+              <div class="card_logo">
+                <img src="./images/card_logo_1.svg" alt="">
+              </div>
+              <div class="card_text">
+                <h2>Best Tour Guide</h2>
+                <p>What looked like a small patch of purple grass, above five feet.</p>
+              </div>
+            </div>
+          </div>
+          <div class="card card_one borderd_card">
+            <div class="contain">
+              <div class="card_logo">
+                <img src="./images/card_logo_1.svg" alt="">
+              </div>
+              <div class="card_text">
+                <h2>Best Tour Guide</h2>
+                <p>What looked like a small patch of purple grass, above five feet.</p>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="card card_two">
+
+          </div> -->
+        </div>
+
+      </div>
+
+    </section>
+    <!-- <section class="carosol "></section> -->
+    <section class="travel_point">
+      <div class="container">
+        <div class="discount_image">
+          <!-- <button class="discount_button"> Discounted Price</button> -->
+          <div class="discount_ubar"></div>
+          <div class="discount_button">
+            <img src="./images/discount 1.svg" alt=""> Discounted Price
+          </div>
+          <div class="circle_one"></div>
+          <div class="circle_two"></div>
+          <div class="circle_three"></div>
+          <div class="circle_four"></div>
+          <div class="circle_five"></div>
+          <img class="girl_image" src="./images/My project 1.png" alt="Discount Image">
+        </div>
+        <div class="discount_text">
+          <h4 class="text-accent-400 fw-semi-bold fs-md tagline_text_style"> TRAVEL POINT </h4>
+          <h2 class="fs-lg text-neutral-900 fw-semi-bold mid_text">We helping you find your dream location</h2>
+          <p class="travel_desc">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
+            piece of classical Latin literature from 45 BC.</p>
+          <div class="first_card_set">
+            <div class="card_one">
+              <div class="card holiday_package">
+                <h3>500+</h3>
+                <p>Holiday Package</p>
+              </div>
+            </div>
+            <div class="card_one">
+              <div class="card holiday_package">
+                <h3>100</h3>
+                <p>Luxury Hotel</p>
+              </div>
+            </div>
+            <div class="travel_icon">
+              <img src="./images/ticket-star 1.svg" alt="Tick Star">
+            </div>
+          </div>
+          <div class="first_card_set">
+            <div class="card_one">
+              <div class="card holiday_package">
+                <h3>7</h3>
+                <p>Premium Airlines</p>
+              </div>
+            </div>
+            <div class="card_one">
+              <div class="card holiday_package">
+                <h3>2k+</h3>
+                <p>Happy Customer</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- <section class="Key features"></section>
+    <section class="carosol Testimonials"></section> -->
+    <section class="newsletter">
+      <div class="main_div">
+        <img src="./images/Graphic_Elements.png" alt="">
+        <div class="content_div">
+          <h4 class="text-accent-400 fw-semi-bold fs-md tagline_text_style"> subscribe to our newsletter </h4>
+          <h2>Prepare yourself & let’s explore the <br>beauty of the world</h2>
+          <div class="sub_form">
+            <label>
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M22.586 4C24.374 4 26.094 4.70667 27.3594 5.97467C28.626 7.24 29.334 8.94667 29.334 10.7333V21.2667C29.334 24.9867 26.3074 28 22.586 28H9.41403C5.69269 28 2.66736 24.9867 2.66736 21.2667V10.7333C2.66736 7.01333 5.67936 4 9.41403 4H22.586ZM24.7074 12.72L24.814 12.6133C25.1327 12.2267 25.1327 11.6667 24.7994 11.28C24.614 11.0813 24.3594 10.96 24.094 10.9333C23.814 10.9187 23.5474 11.0133 23.346 11.2L17.334 16C16.5607 16.6413 15.4527 16.6413 14.6674 16L8.66736 11.2C8.25269 10.8933 7.67936 10.9333 7.33403 11.2933C6.97403 11.6533 6.93403 12.2267 7.23936 12.6267L7.41403 12.8L13.4807 17.5333C14.2274 18.12 15.1327 18.44 16.0807 18.44C17.026 18.44 17.9474 18.12 18.6927 17.5333L24.7074 12.72Z"
+                  fill="#191825" fill-opacity="0.75" />
+              </svg>
+
+              <input placeholder="Your Email" type="search" />
+            </label>
+            <button>Subscribe</button>
+          </div>
+        </div>
+      </div>
+      <div class="shape">
+        <img src="./images/OBJECTS_S.svg" alt="Shapes">
+      </div>
+    </section>
+
+    <section class="footer_element">
+      <div class="logo_section">
+        <a href="#"><img src="./images/logo.svg" alt="Logo"></a>
+        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots
+          in a piece of classical Latin literature from 45 BC.</p>
+      </div>
+      <div class="navigation_section">
+        <div class="navigation_data">
+          <div class="navigation_indi">
+            <p class="active">Company</p>
+            <p>About</p>
+            <p>Career</p>
+            <p>Mobile</p>
+          </div>
+          <div class="navigation_indi">
+            <p class="active">Contact</p>
+            <p>Why Travlog?</p>
+            <p>Partner with us</p>
+            <p>FAQ's</p>
+            <p>Blog</p>
+          </div>
+          <div class="navigation_indi">
+            <p class="active">Meet Us</p>
+            <p>+00 92 1234 56789</p>
+            <p>info@travlog.com</p>
+            <p>205. R Street, New York</p>
+            <p>BD23200</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+
+  <script type="module" src="/main.js"></script>
+</body>
+
 </html>
